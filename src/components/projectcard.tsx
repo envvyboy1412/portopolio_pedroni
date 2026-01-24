@@ -7,7 +7,9 @@ type ProjectCardProps = {
   image: string;
   tags: string[];
   link: string;
-  buttonText?: string;
+  linkdemo: string;
+  buttonProject?: string;
+  buttonDemo?: string;
 };
 
 export function ProjectCard({
@@ -16,7 +18,8 @@ export function ProjectCard({
   image,
   tags,
   link,
-  buttonText = "View Project",
+  linkdemo,
+  buttonProject = "View Project", buttonDemo = "Demo Project",
 }: ProjectCardProps) {
   return (
     <div className="flex h-full w-full flex-col rounded-2xl bg-linear-to-b from-white/10 to-white/5 p-5 shadow-lg">
@@ -64,13 +67,21 @@ export function ProjectCard({
         </div>
 
         {/* Button */}
-        <div className="mt-auto pt-4">
+        <div className="mt-auto pt-4 flex flex-col gap-2">
           <Link
             href={link}
             target="_blank"
             className="block rounded-lg bg-teal-600 py-2 text-center text-sm font-medium text-white transition hover:bg-teal-500"
           >
-            {buttonText}
+            {buttonProject}
+          </Link>
+
+          <Link
+            href={linkdemo}
+            target="_blank"
+            className="block rounded-lg bg-teal-600 py-2 text-center text-sm font-medium text-white transition hover:bg-teal-500"
+          >
+            {buttonDemo}
           </Link>
         </div>
       </div>

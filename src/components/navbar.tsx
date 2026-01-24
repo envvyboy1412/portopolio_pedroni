@@ -10,17 +10,13 @@ export function Navbar() {
         <div className="text-white font-bold text-2xl md:text-xl">Pedroni</div>
 
         {/* DESKTOP MENU */}
-        <div className="hidden md:flex gap-24 text-sm text-gray-300">
+        <div className="hidden md:flex gap-24 text-sm md:text-xl text-gray-300">
           <div className="relative font-bold cursor-pointer after:absolute after:left-1/2 after:-bottom-1 after:h-0.5 after:w-0 after:bg-white after:-translate-x-1/2 after:transition-all after:duration-300 hover:after:w-full">
             <Link href="/">Home</Link>
           </div>
 
           <div className="relative font-bold cursor-pointer after:absolute after:left-1/2 after:-bottom-1 after:h-0.5 after:w-0 after:bg-white after:-translate-x-1/2 after:transition-all after:duration-300 hover:after:w-full">
             <Link href="/viewproject">Project</Link>
-          </div>
-
-          <div className="relative font-bold cursor-pointer after:absolute after:left-1/2 after:-bottom-1 after:h-0.5 after:w-0 after:bg-white after:-translate-x-1/2 after:transition-all after:duration-300 hover:after:w-full">
-            <Link href="/experience">Experience</Link>
           </div>
         </div>
 
@@ -56,13 +52,6 @@ export function Navbar() {
             onClick={() => setMenuOpen(false)}
           >
             Project
-          </Link>
-          <Link
-            href="/"
-            className="hover:underline hover:text-yellow-300"
-            onClick={() => setMenuOpen(false)}
-          >
-            Experience
           </Link>
         </div>
       </div>
