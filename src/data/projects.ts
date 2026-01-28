@@ -15,7 +15,7 @@ export const projects = [
     image: "/img/project/2-pj.png",
     tags: ["React", "Next.js", "Tailwind CSS", "HTML"],
     link: "https://github.com/envvyboy1412/Assignment-Day-26---React-Styling",
-     linkdemo: "#"
+     linkdemo: "https://project-two-pedroni.vercel.app/"
   },
   {
     title: "Static Website to React (Next.js) Implementation",
@@ -24,6 +24,6 @@ export const projects = [
     image: "/img/project/3-pj.png",
     tags: ["JavaScript", "Git/Github", "Tailwind CSS", "HTML"],
     link: "https://github.com/envvyboy1412/ASSIGNMENT_DAY22_PEDRONI_GILBRAN",
-    linkdemo: "#"
+    linkdemo: "https://project-three-pedroni.vercel.app/"
   },
 ];
