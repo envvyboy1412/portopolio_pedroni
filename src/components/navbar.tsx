@@ -7,7 +7,7 @@ export function Navbar() {
   return (
     <nav className="relative z-50">
       <div className="flex flex-row justify-between max-w-6xl mx-auto p-6">
-        <div className="text-white font-bold text-2xl md:text-xl">Portfolio</div>
+        <div className="text-white font-bold text-2xl md:text-xl">Portofolio</div>
 
         {/* DESKTOP MENU */}
         <div className="hidden md:flex gap-24 text-sm md:text-xl text-gray-300">
