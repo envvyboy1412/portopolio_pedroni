@@ -38,10 +38,14 @@ export default function Home() {
               Frontend Developer
             </h1>
 
-            <p className="text-sm md:text-xl text-slate-300 font-semibold text-justify leading-relaxed max-w-md mx-auto md:mx-0">
-              I build fast, responsive, and scalable web applications using
-              React, Next.js, and Tailwind CSS, focusing on clean UI and great
-              user experience.
+            <p className="text-gray-300 leading-relaxed max-w-lg">
+              Saya membangun aplikasi web yang{" "}
+              <span className="text-cyan-400 font-semibold">cepat</span>,{" "}
+              <span className="text-cyan-400 font-semibold">responsif</span>,
+              dan <span className="text-cyan-400 font-semibold">modern</span>{" "}
+              menggunakan{" "}
+              <span className="text-white font-semibold">React</span> dan{" "}
+              <span className="text-white font-semibold">Next.js</span>.
             </p>
 
             {/* BUTTON */}
@@ -79,7 +83,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* IMAGE HERO */}
           <div
             ref={heroImage.ref}
             className={`flex justify-center md:justify-end order-1 md:order-2
@@ -103,7 +106,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ================= ABOUT SECTION ================= */}
         <section
           ref={aboutSection.ref}
           className={`mt-20 md:mt-40
@@ -115,24 +117,24 @@ export default function Home() {
           }`}
         >
           <div className="grid gap-24 md:grid-cols-2 items-start">
-            {/* LEFT COLUMN */}
             <div className="space-y-3">
               <h3 className="text-lg md:text-4xl font-semibold text-slate-100">
-                Professional Background
+                About Me
               </h3>
 
               <p className="text-slate-300 text-sm md:text-2xl leading-relaxed text-justify">
-                With experience in modern web development, I focus on building
-                clean, scalable, and maintainable interfaces. My journey started
-                from learning basic web technologies and evolved into working
-                with React ecosystems and modern tooling.
+                Saya adalah Frontend Developer yang berfokus pada pembuatan
+                aplikasi web yang cepat, responsif, dan mudah digunakan. Saya
+                terbiasa menggunakan React, Next.js, dan Tailwind CSS untuk
+                membangun tampilan yang clean dan modern. Saat ini, saya terus
+                mengembangkan kemampuan melalui berbagai project untuk
+                menghasilkan aplikasi yang stabil dan berkualitas.
               </p>
             </div>
 
-            {/* RIGHT COLUMN */}
             <div className="space-y-4">
               <h3 className="text-lg md:text-4xl font-semibold text-slate-100">
-                Skills & Expertise
+                Tech Stack
               </h3>
 
               <div className="flex flex-wrap gap-3">
@@ -142,24 +144,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* ABOUT + EXPERIENCE (CENTER BOTTOM) */}
             <div className="md:col-span-2 md:justify-self-center w-full max-w-xl space-y-10">
-              {/* ABOUT ME */}
-              <div className="space-y-4 md:text-center">
-                <h2 className="text-xl md:text-4xl font-bold text-slate-100">
-                  About Me
-                </h2>
-                <p className="text-slate-300 md:text-xl text-sm text-justify leading-relaxed max-w-sm mx-auto">
-                  I’m a Frontend Developer who enjoys building clean, responsive
-                  websites and modern UI experiences. I work with React,
-                  Next.js, Tailwind CSS, and JavaScript to turn ideas into real
-                  products. Currently, I’m focused on sharpening my IT skills
-                  and creating projects that are fast, smooth, and
-                  user-friendly.
-                </p>
-              </div>
-
-              {/* EXPERIENCE */}
               <div className="space-y-4">
                 <h3 className="text-lg md:text-4xl font-semibold text-slate-100">
                   Experience

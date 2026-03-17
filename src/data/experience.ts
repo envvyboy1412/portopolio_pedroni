@@ -1,23 +1,23 @@
 export const experiences = [
   {
-    role: "Intern — Data & Web Support",
+    role: "Magang — Data & Web Support",
     place: "Dinas Koperasi & UMKM Provinsi Kalimantan Tengah",
-    date: "Aug 2022 – Dec 2022",
+    date: "Agustus 2022 – Desember 2022",
     tech: ["HTML", "CSS", "JavaScript"],
     points: [
-      "Managed UMKM data using a computer-based information system to support digital administration.",
-      "Built and optimized a responsive website using HTML, CSS, and JavaScript (loading improved up to 40%).",
-      "Fixed 10+ UI bugs, improving system stability by around 40%.",
+      "Mengelola data UMKM menggunakan sistem informasi berbasis komputer untuk mendukung administrasi digital.",
+      "Membangun dan mengoptimalkan website responsif menggunakan HTML, CSS, dan JavaScript (peningkatan loading hingga 40%).",
+      "Memperbaiki lebih dari 10 bug UI, sehingga meningkatkan stabilitas sistem sekitar 40%.",
     ],
   },
   {
-    role: "Frontend Development (Personal Projects)",
-    place: "Self Learning",
-    date: "2024 – Present",
+    role: "Frontend Developer (Proyek Pribadi)",
+    place: "Belajar Mandiri",
+    date: "2024 – Sekarang",
     tech: ["React", "Next.js", "Tailwind CSS"],
     points: [
-      "Building frontend projects to improve responsive UI, reusable components, and API integration.",
-      "Learning IT consistently and growing through real-world practice and assignments.",
+      "Mengerjakan berbagai proyek frontend untuk meningkatkan kemampuan dalam membuat UI responsif, komponen reusable, dan integrasi API.",
+      "Terus belajar dan mengembangkan skill IT melalui praktik langsung dan pengerjaan proyek.",
     ],
   },
 ];
