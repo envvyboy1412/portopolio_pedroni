@@ -4,9 +4,16 @@ export const projects = [
     description:
       "Mini Project ini merupakan aplikasi frontend berbasis React (Next.js) yang terintegrasi dengan Reqres Public API Aplikasi ini dibuat sebagai bagian dari assignment bootcamp Front End dan berfokus pada implementasi autentikasi, data fetching, routing, serta pengelolaan state menggunakan React Hooks.",
     image: "/img/project/pj-1.png",
-    tags: ["React", "Next.js", "API Integration", "Authentication", "React Hooks", "Routing",],
+    tags: [
+      "React",
+      "Next.js",
+      "API Integration",
+      "Authentication",
+      "React Hooks",
+      "Routing",
+    ],
     link: "https://github.com/envvyboy1412/Assignment_day28v2_Pedroni-Gilbran",
-     linkdemo: "https://project-one-pedroni.vercel.app/"
+    linkdemo: "https://project-one-pedroni.vercel.app/",
   },
   {
     title: "Static Website to React (Next.js) Implementation",
@@ -15,15 +22,15 @@ export const projects = [
     image: "/img/project/2-pj.png",
     tags: ["React", "Next.js", "Tailwind CSS", "HTML"],
     link: "https://github.com/envvyboy1412/Assignment-Day-26---React-Styling",
-     linkdemo: "https://project-two-pedroni.vercel.app/"
+    linkdemo: "https://project-two-pedroni.vercel.app/",
   },
   {
-    title: "Static Website to React (Next.js) Implementation",
+    title: "Final Project – Dawn Winery",
     description:
-      "Website portfolio statis yang dibangun menggunakan HTML, Tailwind CSS, dan JavaScript dengan fitur Light & Dark Theme. Proyek ini juga digunakan untuk memahami workflow version control menggunakan Git dan GitHub.",
-    image: "/img/project/3-pj.png",
+      "Dawn Winery adalah aplikasi web berbasis React.js (Next.js) yang dikembangkan sebagai final project Bootcamp Front End Developer. Aplikasi ini mengimplementasikan autentikasi, integrasi API, pengelolaan state dengan React Hooks, serta role-based access control (User & Admin). Fitur utama meliputi melihat dan menyimpan makanan, transaksi, manajemen profil, serta dashboard admin untuk mengelola data makanan dan transaksi. Dilengkapi dengan protected route, data fetching API, dan desain responsif untuk desktop maupun mobile.",
+    image: "/img/project/preview-homepage.png",
     tags: ["JavaScript", "Git/Github", "Tailwind CSS", "HTML"],
-    link: "https://github.com/envvyboy1412/ASSIGNMENT_DAY22_PEDRONI_GILBRAN",
-    linkdemo: "https://project-three-pedroni.vercel.app/"
+    link: "https://github.com/envvyboy1412/FinalProject_PedroniGilbran_FE25_New",
+    linkdemo: "https://final-project-pedroni-gilbran-fe-25.vercel.app/",
   },
 ];
