@@ -29,7 +29,7 @@ export const projects = [
     description:
       "Dawn Winery adalah aplikasi web berbasis React.js (Next.js) yang dikembangkan sebagai final project Bootcamp Front End Developer. Aplikasi ini mengimplementasikan autentikasi, integrasi API, pengelolaan state dengan React Hooks, serta role-based access control (User & Admin). Fitur utama meliputi melihat dan menyimpan makanan, transaksi, manajemen profil, serta dashboard admin untuk mengelola data makanan dan transaksi. Dilengkapi dengan protected route, data fetching API, dan desain responsif untuk desktop maupun mobile.",
     image: "/img/project/preview-homepage.png",
-    tags: ["JavaScript", "Git/Github", "Tailwind CSS", "HTML"],
+    tags: ["Typescript", "Next.js", "Tailwind CSS", "API Integration"],
     link: "https://github.com/envvyboy1412/FinalProject_PedroniGilbran_FE25_New",
     linkdemo: "https://final-project-pedroni-gilbran-fe-25.vercel.app/",
   },
