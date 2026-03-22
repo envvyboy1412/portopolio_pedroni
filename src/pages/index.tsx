@@ -123,7 +123,7 @@ export default function Home() {
               </h3>
 
               <p className="text-slate-300 text-sm md:text-2xl leading-relaxed text-justify">
-                Saya adalah Frontend Developer yang berfokus pada pembuatan
+                Saya adalah Frontend Development yang berfokus pada pembuatan
                 aplikasi web yang cepat, responsif, dan mudah digunakan. Saya
                 terbiasa menggunakan React, Next.js, dan Tailwind CSS untuk
                 membangun tampilan yang clean dan modern. Saat ini, saya terus
