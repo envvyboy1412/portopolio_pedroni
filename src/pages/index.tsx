@@ -35,7 +35,7 @@ export default function Home() {
               PEDRONI GILBRAN
             </h1>
             <h1 className="text-xl md:text-2xl font-bold text-sky-200 text-shadow-sm text-shadow-sky-400/40">
-              Frontend Developer
+              Frontend Development
             </h1>
 
             <p className="text-gray-300 leading-relaxed max-w-lg">
